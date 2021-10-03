@@ -1,0 +1,38 @@
+
+.clock-face{
+    background-color: black;
+    margin: auto;
+    width:50vw;
+    height:50vw;
+    box-shadow: 0 0 5px 2px #888888;
+
+    font-family: 'Varela Round', sans-serif;
+
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+        ". . . . . . . . . . ."
+        ". . . . . . . . . . ."
+        ". . . . . . . . . . ."
+        ". . . . . . . . . . ."
+        ". . . . . . . . . . ."
+        ". . . . . . . . . . ."
+        ". . . . . . . . . . ."
+        ". . . . . . . . . . ."
+        ". . . . . . . . . . ."
+        ". . . . . . . . . . .";
+}
+
+.letter{
+    color: rgb(43, 43, 43);    
+    display: table-cell;
+    margin: auto;
+    font-size: 2.5vw;
+}
+
+.illuminated{
+    color: white !important;
+    text-shadow: 0 0 5px white;
+}
